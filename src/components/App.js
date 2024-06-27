@@ -20,7 +20,7 @@ const App = () =>{
             <p id="todo-0">{newTodo}</p>
             <button id="add-todo-btn" onClick={() => setNewTodo('New Todo')}>Add Todo</button>
             <div id="incr-cnt">
-                Count: 0 <button onClick={() => setCount(count + 1)}>+</button>
+                Count: 0 <button  id="incr-btn" onClick={() => setCount(count + 1)}>+</button>
                 <div id="calc">{count}</div>
             </div>
 
